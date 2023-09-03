@@ -1,0 +1,321 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/villager-running.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 100px 0;
+    max-height: 1600px;
+    max-height: 400px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px black;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500; /* Orange button background color */
+    color: #ffffff; /* White button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 20px;
+}
+
+.cta-button:hover {
+    background-color: #cc3700; /* Darker orange on hover */
+}
+
+/* About Section */
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-content {
+    text-align: left; /* Left-align the content within the centered section */
+}
+
+.about-content p {
+    text-align: left; /* Left-align the content within the centered section */
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Dark gray footer background color */
+    color: #ffffff; /* White footer text color */
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Distribute items evenly in a row */
+    overflow: auto; /* Add horizontal scroll if necessary */
+    padding-left: 20vw; /* Add padding to the entire section */
+    padding-right: 20vw; /* Add padding to the entire section */
+    text-align: center;
+}
+
+.articles-wrap {
+    color: #ffffff;
+    text-align: center;
+}
+
+.articles-wrap h2 {
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.article-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the articles within the container */
+}
+
+.article-box {
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.article-box img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.article a {
+    color: #ffffff; /* White link text color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.article a:hover {
+    color: #cccccc; /* Light gray link text color on hover */
+}
+
+.article-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #20211F; /* Dark background color */
+}
+
+/* Header */
+.navbar {
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar-logo img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.navbar-text {
+    font-size: 24px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+}
+
+.navbar-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-menu a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.article p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left; /* Left-align the text within the centered section */
+    padding: 10px;
+}
+
+.article img {
+    max-width: 512px;
+    max-height: 512px;
+    width: auto;
+    height: auto;
+}
+/* Share Buttons */
+.share-buttons {
+    text-align: center;
+}
+
+.share-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.share-button:hover {
+    background-color: #cc3700;
+}
+
+/* Download Section */
+.download {
+    text-align: center; /* Center-align the content */
+    padding: 60px 0; /* Adjust padding as needed */
+    color: #fff; /* Text color (white) */
+}
+
+.download h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.download p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500; /* Button background color */
+    color: #fff; /* Button text color (white) */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download .cta-button:hover {
+    background-color: #cc3700; /* Button background color on hover */
+}
+
+/* Articles Section */
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.articles-container a {
+    text-decoration: none; /* Remove default underline */
+    color: black;
+}
+
+.article-box {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* 3 columns with 20px spacing */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.article-box:hover {
+    transform: scale(1.05);
+}
+
+.article-box a {
+    display: block;
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent element */
+    transition: transform 0.2s;
+}
+
+.article-box a:hover {
+    transform: scale(1.03); /* Add a slight scale effect on hover */
+}
+
+.article-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.article-description {
+    font-size: 14px;
+    color: #777;
+}
