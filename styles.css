@@ -109,23 +109,15 @@ footer {
 .article-box img {
     max-height: 150px;
     max-width: 150px;
-}
-
-.article a {
-    color: #ffffff; /* White link text color */
-    text-decoration: none; /* Remove default underline */
-    transition: color 0.2s; /* Smooth color transition on hover */
-}
-
-.article a:hover {
-    color: #cccccc; /* Light gray link text color on hover */
-}
-
-.article-box img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+}
+
+.main {
+    border-radius: 10px;
 }
 
 body {
@@ -198,6 +190,10 @@ main {
 .article {
     text-align: center;
     margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .article h1 {
@@ -205,11 +201,19 @@ main {
     margin-bottom: 20px;
 }
 
+.article h2 {
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    margin-bottom: 20px;
+}
+
 .article p {
     font-size: 18px;
     line-height: 1.5;
     text-align: left; /* Left-align the text within the centered section */
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .article img {
@@ -217,7 +221,19 @@ main {
     max-height: 512px;
     width: auto;
     height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
+
+.article a {
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.article a:hover {
+    color: #cccccc; /* Light gray link text color on hover */
+}
+
 /* Share Buttons */
 .share-buttons {
     text-align: center;
