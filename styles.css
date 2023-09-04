@@ -234,6 +234,16 @@ main {
     color: #cccccc; /* Light gray link text color on hover */
 }
 
+.article iframe {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.article ul {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
 /* Share Buttons */
 .share-buttons {
     text-align: center;
