@@ -377,3 +377,57 @@ main {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Sections */
+.guide-section {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+
+.guide-section p, h1 {
+    margin-bottom: 10px;
+}
+
+.config-section p, h2 {
+    margin-bottom: 10px;
+}
+
+.config-section p, h2, h3, ul {
+    margin-bottom: 10px;
+}
+
+.config-section p {
+    margin-left: 10px;
+}
+
+.config-section ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.config-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Section description */
+.section-description {
+    font-style: italic;
+    margin-top: 10px;
+    color: #777;
+    text-align: center;
+}
+
+/* Section title */
+.section-title {
+    text-align: center;
+}

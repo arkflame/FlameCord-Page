@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlameCord - Configuration Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name="description" content="Enhance security, performance, and compatibility on your Minecraft server with FlameCord. 🔒🚀">
+    <meta property='og:title' content='FlameCord - The best BungeeCord Fork' />
+    <meta property='og:image' content='https://flamecord.com/images/banner.webp' />
+    <meta property='og:description' content='Experience advanced security, optimized performance, and seamless compatibility with FlameCord. Enhance your Minecraft server today!' />
+    <meta property='og:url' content='https://flamecord.com/' />
+    <meta property='og:image:width' content='1280' />
+    <meta property='og:image:height' content='720' />
+</head>
+<body>
+    <nav id="nav" class="navbar">
+        <div class="navbar-logo">
+            <img src="images/favicon.png" alt="FlameCord Logo" width="50" height="50">
+            <span class="navbar-text"></span>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Socials</a>
+                    <div class="dropdown-content">
+                        <a href="https://discord.com/invite/gF36AT3">Discord</a>
+                        <a href="https://twitter.com/FlameCordMC">Twitter</a>
+                        <a href="https://www.reddit.com/r/FlameCord/">Reddit</a>
+                        <a href="https://www.instagram.com/FlameCordMC/">Instagram</a>
+                        <a href="https://www.tiktok.com/@flamecordmc">TikTok</a>
+                    </div>
+                </li>
+                <li><a href="config.html">Config</a></li>
+                <li><a href="https://builtbybit.com/resources/flamecord-ultimate-antibot-solution.13492/">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="configuration-guide" class="guide-section">
+        <h1>FlameCord Configuration Guide</h1>
+        <p>Learn how to configure FlameCord to enhance your server's security and performance.</p>
+    </section>
+
+    <section id="logger" class="config-section">
+        <h2 class="section-title">Logger Configuration</h2>
+        <p class="section-description">Configure logging options for FlameCord.</p>
+        
+        <!-- Initial Handler -->
+        <div class="config-subsection">
+            <h3>Initial Handler</h3>
+            <p>Controls the initial handling of logging.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+            </ul>
+        </div>
+        
+        <!-- Exceptions -->
+        <div class="config-subsection">
+            <h3>Exceptions</h3>
+            <p>Determines whether exceptions are logged.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+            </ul>
+        </div>
+        
+        <!-- Dump -->
+        <div class="config-subsection">
+            <h3>Dump</h3>
+            <p>Controls the dumping of logs.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+            </ul>
+        </div>
+        
+        <!-- HAProxy -->
+        <div class="config-subsection">
+            <h3>HAProxy</h3>
+            <p>Configures HAProxy logging.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+            </ul>
+        </div>
+        
+        <!-- Detailed Connect Errors -->
+        <div class="config-subsection">
+            <h3>Detailed Connect Errors</h3>
+            <p>Enables detailed logging of connection errors.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="custom-motd" class="config-section">
+        <h2 class="section-title">Custom MOTD Configuration</h2>
+        <p class="section-description">Customize the Message of the Day (MOTD) settings for FlameCord.</p>
+        
+        <!-- MOTD -->
+        <div class="config-subsection">
+            <h3>MOTD</h3>
+            <p>Customize the MOTD using colors and HEX codes.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+                <li>
+                    <strong>MOTDs:</strong>
+                    <ul>
+                        <li>&eDefault &cFlameCord&e server &7(%onlineplayers%/%maxplayers%)</li>
+                        <li>&eEdit on &cflamecord.yml&7 (IridiumColorAPI HEX)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Sample MOTD -->
+        <div class="config-subsection">
+            <h3>Sample MOTD</h3>
+            <p>Define sample MOTDs that show when hovering with the mouse over the player count.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+                <li>
+                    <strong>Samples:</strong>
+                    <ul>
+                        <li>&eDefault &cFlameCord&e server &7(%onlineplayers%/%maxplayers%)</li>
+                        <li>&eEdit on &cflamecord.yml&7 (IridiumColorAPI HEX)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Protocol -->
+        <div class="config-subsection">
+            <h3>Protocol</h3>
+            <p>Customize the server protocol message.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+                <li><strong>Name:</strong> <code>&c&lMaintenance</code></li>
+                <li><strong>Always Show:</strong> <code>false</code></li>
+            </ul>
+        </div>
+        
+        <!-- Max Players -->
+        <div class="config-subsection">
+            <h3>Max Players</h3>
+            <p>Configure the maximum number of players displayed in the ping response.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+                <li><strong>Amount:</strong> <code>1000</code></li>
+                <li><strong>Just One More:</strong> <code>false</code></li>
+            </ul>
+        </div>
+        
+        <!-- Fake Players -->
+        <div class="config-subsection">
+            <h3>Fake Players</h3>
+            <p>Adjust settings for fake player counts.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>false</code></li>
+                <li><strong>Amount:</strong> <code>3</code></li>
+                <li><strong>Mode:</strong> <code>DIVISION</code></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="tcp-fast-open" class="config-section">
+        <h2 class="section-title">TCP Fast Open Configuration</h2>
+        <p class="section-description">Adjust TCP Fast Open settings in the Netty system.</p>
+
+        <!-- TCP Fast Open -->
+        <div class="config-subsection">
+            <h3>TCP Fast Open</h3>
+            <p>Adjust the value of TCP Fast Open in the Netty system.</p>
+            <ul class="config-options">
+                <li><strong>Value:</strong> <code>3</code></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="compression-level" class="config-section">
+        <h2 class="section-title">Compression Level Configuration</h2>
+        <p class="section-description">Control packet compression for optimal performance.</p>
+        
+        <!-- Compression Level -->
+        <div class="config-subsection">
+            <h3>Compression Level</h3>
+            <p>Set the compression level for packets (1-9). Higher levels provide more compression but may increase CPU usage.</p>
+            <ul class="config-options">
+                <li><strong>Level:</strong> <code>6</code></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="antibot" class="config-section">
+        <h2 class="section-title">AntiBot Configuration</h2>
+        <p class="section-description">Enhance security with FlameCord's AntiBot features.</p>
+       
+        <!-- Accounts Check -->
+        <div class="config-subsection">
+            <h3>Accounts Check</h3>
+            <p>Control the registration of accounts per IP to prevent spam account creation.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Firewall:</strong> <code>true</code></li>
+                <li><strong>Limit:</strong> <code>3</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+                <li><strong>Whitelist:</strong> <code>Nickname</code></li>
+            </ul>
+        </div>
+
+        <!-- Country Check -->
+        <div class="config-subsection">
+            <h3>Country Check</h3>
+            <p>Block or allow connections from specific countries to enhance security.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Firewall:</strong> <code>true</code></li>
+                <li><strong>Blacklist:</strong> <code>CN, HK, RU, IN, TH, ID, DZ, VN, IR, PK</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+                <li><strong>Whitelist:</strong> <code></code></li>
+            </ul>
+        </div>
+
+        <!-- FastChat Check -->
+        <div class="config-subsection">
+            <h3>FastChat Check</h3>
+            <p>Prevent bots from automatically sending commands upon joining the server.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Firewall:</strong> <code>true</code></li>
+                <li><strong>Time:</strong> <code>1000</code> milliseconds</li>
+                <li><strong>Log:</strong> <code>true</code></li>
+            </ul>
+        </div>
+
+        <!-- Firewall Check -->
+        <div class="config-subsection">
+            <h3>Firewall Check</h3>
+            <p>Manage dropped connections based on certain criteria and exceptions.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Exceptions:</strong> <code>BadPacketException, QuietException, IllegalStateConfig, FastException</code></li>
+                <li><strong>Time:</strong> <code>60</code> seconds</li>
+                <li><strong>Log:</strong> <code>true</code></li>
+                <li><strong>Whitelist:</strong> <code>127.0.0.1</code></li>
+                <li><strong>IPSet:</strong> <code>true</code></li>
+            </ul>
+        </div>
+
+        <!-- Nickname Check -->
+        <div class="config-subsection">
+            <h3>Nickname Check</h3>
+            <p>Block specific nicknames often used by bots to infiltrate servers.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Firewall:</strong> <code>true</code></li>
+                <li><strong>Blacklist:</strong> <code>mcstorm, mcdown, mcbot, theresa_bot, dropbot, kingbot</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+            </ul>
+        </div>
+
+        <!-- Password Check -->
+        <div class="config-subsection">
+            <h3>Password Check</h3>
+            <p>Prevent bots from using the same passwords by limiting their usage.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Firewall:</strong> <code>true</code></li>
+                <li><strong>Limit:</strong> <code>3</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+            </ul>
+        </div>
+
+        <!-- RateLimit Check -->
+        <div class="config-subsection">
+            <h3>RateLimit Check</h3>
+            <p>Control the number of connections and pings per second to prevent spamming.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Firewall:</strong> <code>true</code></li>
+                <li><strong>Connections Per Second:</strong> <code>3</code></li>
+                <li><strong>Pings Per Second:</strong> <code>8</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+                <li><strong>Whitelist:</strong> <code>127.0.0.1</code></li>
+            </ul>
+        </div>
+
+        <!-- Reconnect Check -->
+        <div class="config-subsection">
+            <h3>Reconnect Check</h3>
+            <p>Manage player reconnect attempts and timing for effective bot deterrence.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Attempts:</strong> <code>2</code></li>
+                <li><strong>Pings:</strong> <code>1</code></li>
+                <li><strong>Max Time:</strong> <code>10000</code> milliseconds</li>
+                <li><strong>Connection Threshold:</strong> <code>1</code></li>
+                <li><strong>Connection Threshold Limit:</strong> <code>8000</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+            </ul>
+        </div>
+
+        <!-- Packets Check -->
+        <div class="config-subsection">
+            <h3>Packets Check</h3>
+            <p>Monitor and control the use of packets to prevent misuse by bots and accounts.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+                <li><strong>Debug:</strong> <code>false</code></li>
+                <li><strong>VLS Per Byte:</strong> <code>0.0017</code></li>
+                <li><strong>VLS Per Packet:</strong> <code>0.1</code></li>
+                <li><strong>VLS To Kick:</strong> <code>100.0</code></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="download">
+        <div class="download-content">
+            <h2>Download FlameCord</h2>
+            <p>Get the ultimate antibot solution for your Minecraft network.</p>
+            <a href="https://builtbybit.com/resources/flamecord-ultimate-antibot-solution.13492/" class="cta-button" target="_blank">Download Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FlameCord</p>
+    </footer>
+</body>
+</html>
