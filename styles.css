@@ -63,6 +63,11 @@ body, h1, h2, h3, p, ul {
     padding: 10px;
 }
 
+.about-subtitle {
+    color: #777;
+    margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
     text-align: center;
