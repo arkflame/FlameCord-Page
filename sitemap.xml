@@ -1,48 +1,62 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-  <url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
   <loc>https://flamecord.com/</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>1.00</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/index</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/config</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
+  <loc>https://flamecord.com/article7</loc>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://flamecord.com/article6</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/article5</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/article1</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/article2</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/article3</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
+</url>
+<url>
   <loc>https://flamecord.com/article4</loc>
-  <lastmod>2023-09-09T13:49:25+00:00</lastmod>
+  <lastmod>2023-09-17T16:01:53+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
+</url>
+
+
 </urlset>
