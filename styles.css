@@ -73,6 +73,10 @@ body, h1, h2, h3, p, ul {
     margin-bottom: 10px;
 }
 
+.about-subsection-title {
+    text-align: center;
+}
+
 /* Footer */
 footer {
     text-align: center;
