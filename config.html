@@ -31,7 +31,7 @@
                         <a title="TikTok" href="https://www.tiktok.com/@flamecordmc">TikTok</a>
                     </div>
                 </li>
-                <li><a title="Config" href="config">Config</a></li>
+                <li><a title="Config" href="config"><u>Config</u></a></li>
                 <li><a title="Download" href="https://builtbybit.com/resources/flamecord-ultimate-antibot-solution.13492/">Download</a></li>
             </ul>
         </div>
@@ -303,6 +303,7 @@
         <div class="config-subsection">
             <h3>Packets Check</h3>
             <p>Monitor and control the use of packets to prevent misuse by bots and accounts.</p>
+            <p>If you are encountering issues with packets, try <b>slightly</b> reducing VLS Per Byte or VLS Per Packet.</p>
             <ul class="config-options">
                 <li><strong>Enabled:</strong> <code>true</code></li>
                 <li><strong>Log:</strong> <code>true</code></li>
@@ -310,6 +311,19 @@
                 <li><strong>VLS Per Byte:</strong> <code>0.0017</code></li>
                 <li><strong>VLS Per Packet:</strong> <code>0.1</code></li>
                 <li><strong>VLS To Kick:</strong> <code>100.0</code></li>
+            </ul>
+        </div>
+
+        <!-- Lockdown Mode Configuration -->
+        <div class="config-subsection">
+            <h3>Lockdown Mode</h3>
+            <p>Configure the settings for FlameCord's Lockdown Mode to enhance your server's security.</p>
+            <ul class="config-options">
+                <li><strong>Enabled:</strong> <code>true</code></li>
+                <li><strong>Log:</strong> <code>true</code></li>
+                <li><strong>Duration:</strong> <code>5000</code> milliseconds</li>
+                <li><strong>Period:</strong> <code>5000</code> milliseconds</li>
+                <li><strong>Period Limit:</strong> <code>2</code></li>
             </ul>
         </div>
     </section>

@@ -2,24 +2,27 @@
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Hero Section */
 .hero {
-    background-image: url('images/villager-running.jpg');
+    background-image: url('images/mcdungeons.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff; /* White text color */
     text-align: center;
-    padding: 100px 0;
-    max-height: 1600px;
-    max-height: 400px;
+    padding-bottom: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .hero-content {
     max-width: 800px;
-    margin: 0 auto;
-    text-shadow: 1px 1px 2px black;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .hero h2 {
@@ -140,15 +143,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #20211F; /* Dark background color */
+    text-underline-offset: 8px;
 }
 
 /* Header */
 .navbar {
-    background-color: #1b1b1b;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10%;
 }
 
 .navbar-logo {
@@ -401,6 +404,7 @@ main {
     background-color: #007bff;
     color: #fff;
     padding: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 25%;
     margin-right: 25%;
@@ -411,8 +415,8 @@ main {
     margin-bottom: 10px;
 }
 
-.config-section p, h2 {
-    margin-bottom: 10px;
+.config-section {
+    margin-bottom: 20px;
 }
 
 .config-section p, h2, h3, ul {
