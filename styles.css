@@ -146,58 +146,6 @@ body {
     text-underline-offset: 8px;
 }
 
-/* Header */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-}
-
-.navbar-logo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-}
-
-.navbar-logo img {
-    margin-right: 10px;
-    border-radius: 10px;
-}
-
-.navbar-text {
-    font-size: 24px;
-    transition: transform 0.2s;
-}
-
-.navbar-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar-menu li {
-    margin-right: 20px;
-}
-
-.navbar-menu li:last-child {
-    margin-right: 0;
-}
-
-.navbar-menu a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-.navbar-menu a:hover {
-    color: lightgray;
-    text-decoration: none;
-}
-
 /* Main Content */
 main {
     max-width: 800px;
@@ -487,4 +435,30 @@ main {
 
 .benchmark p {
     margin-bottom: 10px;
+}
+
+.faq {
+    border-radius: 20px;
+}
+
+.faq-section {
+    margin-top: 20px;
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item a {
+    text-decoration: none;
+}
+
+.bg-faq {
+    background-image: url('images/mc-wall-shader.jpg');
 }

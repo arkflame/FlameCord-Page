@@ -1,0 +1,52 @@
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar-logo img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.navbar-text {
+    font-size: 24px;
+    transition: transform 0.2s;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+}
+
+.navbar-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
