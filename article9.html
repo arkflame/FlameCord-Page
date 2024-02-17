@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlameCord Incompatibilities</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name="description" content="FlameCord, a BungeeCord fork esteemed for its optimized performance, encounters compatibility issues with certain plugins, notably ViaVersion and BungeeTabListPlus. These issues arise due to FlameCord's prioritization of efficiency and the removal of deprecated features.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <script defer src="./elements/navbar.js" lang="javascript"></script>
+    <link rel="stylesheet" href="elements/navbar.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+
+    <main>
+        <section class="article">
+            <h1>FlameCord Incompatibilities</h1>
+
+            <img src="images/article-9-image.png" alt="FlameCord Incompatibilities">
+
+            <h2>Introduction</h2>
+            <p>FlameCord, a BungeeCord fork esteemed for its optimized performance, encounters compatibility issues with certain plugins, notably ViaVersion and BungeeTabListPlus. These issues arise due to FlameCord's prioritization of efficiency and the removal of deprecated features.</p>
+
+            <h2>FlameCord's Commitment to Performance</h2>
+            <p>FlameCord distinguishes itself through its streamlined architecture, aimed at enhancing server performance under various conditions. Its development focus centers on eliminating inefficiencies and outdated components to ensure optimal server operation.</p>
+
+            <h2>Incompatibility with ViaVersion</h2>
+            <p>ViaVersion, a widely-used plugin facilitating version interoperability in Minecraft, faces compatibility challenges with FlameCord due to differences in packet handling methods. ViaVersion relies on Entity Rewrite, a packet manipulation technique, which conflicts with FlameCord's streamlined approach to packet processing.</p>
+            <p>You can still use ViaVersion in your server if you install it on the Spigot servers instead of FlameCord.</p>
+
+            <h2>Incompatibility with BungeeTabListPlus</h2>
+            <p>Similarly, FlameCord encounters compatibility issues with BungeeTabListPlus, a plugin designed for customizing tab lists in BungeeCord setups. BungeeTabListPlus also employs Entity Rewrite, leading to conflicts with FlameCord's optimized packet handling mechanism and impacting overall server performance.</p>
+
+            <h2>Impact on Performance</h2>
+            <p>The utilization of Entity Rewrite by ViaVersion and BungeeTabListPlus results in a notable CPU overhead, averaging around 50%. This additional processing burden significantly diminishes server performance, impeding FlameCord's ability to operate at peak efficiency.</p>
+
+            <h2>Conclusion</h2>
+            <p>While FlameCord's commitment to performance optimization is commendable, it inevitably leads to compatibility challenges with plugins relying on deprecated packet manipulation techniques like ViaVersion and BungeeTabListPlus. These issues underscore the importance of adapting plugins to accommodate evolving server architectures. Despite initial hurdles, FlameCord's emphasis on efficiency sets a new standard for Minecraft server hosting, demonstrating the importance of prioritizing performance in server development.</p>
+
+            <a href="https://builtbybit.com/resources/flamecord-ultimate-antibot-solution.13492/" class="cta-button" target="_blank">Download FlameCord</a>
+            <a href="#nav" id="goToTopButton" class="cta-button" title="Go backend to the top">Back to the top</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FlameCord by LinsaFTW</p>
+    </footer>
+</body>
+</html>
